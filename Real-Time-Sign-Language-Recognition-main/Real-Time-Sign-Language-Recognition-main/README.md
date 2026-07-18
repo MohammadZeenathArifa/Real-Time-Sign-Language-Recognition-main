@@ -84,14 +84,4 @@ Notes
   (CNN_model_alphabet_SIBI.pth or CNN_model_number_SIBI.pth).
 - Ensure the training and test datasets are preprocessed and structured correctly as required by the CNN model.
 
----
 
-Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request if you have suggestions or improvements.
-
----
-
-Contact
-
-For any questions or suggestions, feel free to contact me at (monzerkoukou@gmail.com).
