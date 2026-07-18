@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Sign Language Interpreter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🤖 AI Sign Language Interpreter</h1>
+
+<button onclick="startCamera()">
+Hi, I'm Your Interpreter
+</button>
+
+<img id="cameraFeed" width="450" style="display:none;">
+
+<div class="status" id="status">Click the button to begin</div>
+<div class="prediction" id="prediction">Detected Sign: --</div>
+
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
